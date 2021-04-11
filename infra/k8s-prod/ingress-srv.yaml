@@ -7,7 +7,7 @@ metadata:
     nginx.ingress.kubernetes.io/use-regex: 'true'
 spec:
   rules:
-    - host: ticketing.dev # change this to domain name
+    - host: ticketing.drew-chorney.com # change this to domain name
       http:
         paths:
           - path: /api/payments/?(.*)
