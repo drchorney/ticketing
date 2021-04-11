@@ -8,7 +8,7 @@ declare global {
     interface Global {
       signin(): Promise<string[]>
     }
-  
+  } 
 }
 
 let mongo: any;
